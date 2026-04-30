@@ -23,3 +23,14 @@ $(function() {
         }
     });
 });
+
+$(function() {
+    $('.accordian-header').click(function() {
+        if($(this).next('.accordian-content').is(':visible')) {
+            $(this).next('.accordian-content').slideUp();
+        }else{
+            $('.accordian-content').slideUp();
+            $(this).next('.accordian-content').slideDown();
+        }
+    })
+}); 

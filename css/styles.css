@@ -376,7 +376,7 @@ ul.paw-list li::before {
     overflow: hidden;
     background-color: #fff;
     padding: 0 15px;
-    transition: max-height 0.3s ease, padding 0.3s ease;
+    /* transition: max-height 0.3s ease, padding 0.3s ease; */
 }  
 .accordion-content p {
     margin: 15px 0;
@@ -644,3 +644,4 @@ footer img {
     text-decoration:none; 
     display: none;
 }
+
